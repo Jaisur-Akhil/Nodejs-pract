@@ -4,20 +4,41 @@ https://weatherstack.com/quickstart
 akhiljaisur98@gmail.com
 123456789
 
-api - 0d614b4dd33f8407a2ed40849487087 
+api - 0d614b4dd33f8407a2ed40849487087
 
 http://api.weatherstack.com/current?access_key=0d614b4dd33f8407a2ed40849487087a&query=19.210420854829472, 72.85190830924196
-
-
 
 // Current Weather API Endpoint
 
 http://api.weatherstack.com/current
-    ? access_key = YOUR_ACCESS_KEY
-    & query = New York
-    
-// optional parameters: 
+? access_key = YOUR_ACCESS_KEY
+& query = New York
+
+// optional parameters:
 
     & units = m
     & language = en
     & callback = MY_CALLBACK
+
+
+    Map box for location to long lat
+
+https://positionstack.com/quickstart
+forward geocoding
+name - > long lat
+akhiljaisur98@gmail.com
+123456789
+
+4ca2b035da27f53160a213021efc773c
+
+http://api.positionstack.com/v1/forward
+? access_key = YOUR_ACCESS_KEY
+& query = 1600 Pennsylvania Ave NW, Washington DC
+
+// optional parameters:
+
+    & limit = 10
+    & output = json
+    // more optional parameters available
+
+http://api.positionstack.com/v1/forward?access_key=4ca2b035da27f53160a213021efc773c&query=fatehbaugh,kandivali
