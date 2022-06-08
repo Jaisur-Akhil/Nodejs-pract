@@ -1,0 +1,11 @@
+# @format
+
+tool
+- clg
+- node debugger
+
+debugger to halt and get flexiblity
+
+
+node inspect-brk app.js add -- ... .. ..
+chrome : chrome://inspect

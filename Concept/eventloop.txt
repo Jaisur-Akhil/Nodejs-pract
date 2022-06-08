@@ -1,0 +1,42 @@
+/** @format */
+
+//Code snip
+
+// Call Stack - async - only function   FILO - first in last out
+// main() - first one
+//sync function is taken from here and pasted in node api
+
+//Node Api
+// thread is given to a new registed event - once completed - call back function is going to be added on call back queue
+
+// Call back Queue
+// call back queue - function completed
+
+// Event loop
+// check call stack , no new event  => check call back queue
+
+// all the reading of snip is completed , then only event single thread will execute call back queus after pasting it to call stack
+
+//terminal
+//as complete on call stack result is pasted terminal
+
+//Async
+console.log('first ');
+
+setTimeout(() => {
+  console.log('2 ec');
+}, 2000);
+
+setTimeout(() => {
+  console.log('Zero Sec Counter');
+}, 0);
+
+console.log('Stop');
+
+//syn
+
+console.log('first');
+console.log('second');
+console.log('third'); - call stacl
+some function
+few variable decarations  - no call stack

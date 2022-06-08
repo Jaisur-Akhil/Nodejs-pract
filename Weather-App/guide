@@ -1,0 +1,23 @@
+<!-- @format -->
+
+https://weatherstack.com/quickstart
+akhiljaisur98@gmail.com
+123456789
+
+api - 0d614b4dd33f8407a2ed40849487087 
+
+http://api.weatherstack.com/current?access_key=0d614b4dd33f8407a2ed40849487087a&query=19.210420854829472, 72.85190830924196
+
+
+
+// Current Weather API Endpoint
+
+http://api.weatherstack.com/current
+    ? access_key = YOUR_ACCESS_KEY
+    & query = New York
+    
+// optional parameters: 
+
+    & units = m
+    & language = en
+    & callback = MY_CALLBACK

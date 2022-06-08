@@ -1,0 +1,8 @@
+> node app.js add --title="first" --body="Note" 
+> node app.js add --title="first" --body="Note" 
+
+> node app.js rem --title="first" 
+
+> node app.js read --title="first" 
+
+> node app.js list
